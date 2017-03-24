@@ -65,7 +65,9 @@ npm run build
 │   └── favicon.png
 ├── README.md
 ```
+
 > 入口HTML
+
 ```
 <body>
   <div id="app"></div>
@@ -74,6 +76,7 @@ npm run build
 ```
 
 > main.sj
+
 ```
 new Vue({
   el: '#app',
@@ -84,6 +87,7 @@ new Vue({
 ```
 
 > App.vue
+
 ```
 <template>
 <div id="app">
@@ -93,6 +97,7 @@ new Vue({
 ```
 
 > 路由 router
+
 ```
 Vue.use(Router)
 
@@ -115,4 +120,4 @@ export default new Router({
 ```
 
 
-更详细的解释可查看 [wegpack传送门](http://vuejs-templates.github.io/webpack/) and [vue-loader传送门](http://vuejs.github.io/vue-loader).
+更详细的解释可查看 [webpack传送门](http://vuejs-templates.github.io/webpack/) and [vue-loader传送门](http://vuejs.github.io/vue-loader).
